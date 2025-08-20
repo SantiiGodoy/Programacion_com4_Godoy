@@ -1,13 +1,13 @@
-#ej1===
+#ej1====
 print("Hola mundo!") 
 
 
-#ej2===
+#ej2====
 nombre = input("Como es su nombre?")
 print(f"Hola {nombre}!")
 
 
-#ej3===
+#ej3====
 nombre_apellido = input("Digite su nombre completo:")
 edad = input ("Ingrese su edad:")
 lugar = input("Digite lugar de residencia:")
@@ -15,7 +15,7 @@ lugar = input("Digite lugar de residencia:")
 print(f"Soy {nombre_apellido}, tengo {edad} y soy de {lugar}")
 
 
-#ej4===
+#ej4====
 radio = float(input("Ingrese el radio que desea calcular:"))
 PI = 3.14
 area = PI * radio**2
@@ -24,13 +24,13 @@ perimetro = 2 * PI * radio
 print(f"El area de {radio} es {area} y su perimetro es {perimetro} ")
 
 
-#ej5===
+#ej5====
 segundos_usuario = int(input("Ingrese segundos para ver su equivalencia en horas:"))
 hora = segundos_usuario / 3600
 print(f"{segundos_usuario} segundos equivalen a {hora} horas")
 
 
-#ej6===
+#ej6====
 numero_ingresado = int(input("Ingresar un numero para sacar su tabla de multiplicar:"))
 print(f"Tabla de multiplicar del {numero_ingresado}")
 i = 1
@@ -39,7 +39,7 @@ while i <= 10:
     i += 1
 
 
-#ej7===
+#ej7====
 print("")
 print("")
 
@@ -66,7 +66,7 @@ print("===MULTIPLICACION===")
 print(f"{numero1} x {numero2} = {multip}")
 
 
-#ej8===
+#ej8====
 print("")
 
 print("===INDICE DE MASA CORPORAL===")
@@ -77,14 +77,14 @@ masa = peso / (altura * altura)
 print(f"El indice de masa corporal es", round(masa, 2))
 
 
-#ej9===
+#ej9====
 celsius = float(input("Digite la temperatura en grados Celsius:"))
 fahrenheit = (celsius * 9/5) + 32
 
 print("La temperatura en Fahrenheit es", fahrenheit)
 
 
-#ej10===
+#ej10====
 print("")
 
 print("===SACAR PROMEDIO===")
