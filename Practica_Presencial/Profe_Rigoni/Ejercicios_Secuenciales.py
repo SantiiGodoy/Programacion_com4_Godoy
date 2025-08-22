@@ -7,8 +7,8 @@
 
 monto_cuenta = float(input("Ingrese el monto a pagar de la cuenta: "))
 
-propina_10 = (monto_cuenta * 10) / 100
-propina_15 = (monto_cuenta * 15) / 100
+propina_10 = (monto_cuenta *10) / 100
+propina_15 = (monto_cuenta *15) / 100
 monto_10 = propina_10 + monto_cuenta
 monto_15 = propina_15 + monto_cuenta
 
