@@ -96,4 +96,4 @@ print("")
 
 print("Ej 16==" )
 nombre_primer_letra = mi_nombre.capitalize()
-print(nombre_primer_letra)
+print(nombre_primer_letra )
