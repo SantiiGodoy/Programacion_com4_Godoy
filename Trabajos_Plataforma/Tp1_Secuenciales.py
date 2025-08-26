@@ -3,13 +3,13 @@ print("Hola mundo!")
 
 
 #ej2====
-nombre = input("Como es su nombre?")
+nombre = input("Como es su nombre?:")
 print(f"Hola {nombre}!")
 
 
 #ej3====
 nombre_apellido = input("Digite su nombre completo:")
-edad = input ("Ingrese su edad:")
+edad = int(input ("Ingrese su edad:"))
 lugar = input("Digite lugar de residencia:")
 
 print(f"Soy {nombre_apellido}, tengo {edad} y soy de {lugar}")
