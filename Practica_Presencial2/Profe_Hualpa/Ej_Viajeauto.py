@@ -3,7 +3,7 @@ consumo_auto = 8 / 100
 km_recorrer = float(input("Ingrese la distancia en km que desea recorrer: "))
 precio_gasolina = float(input("Ingrese el precio de la gasolina por litros: "))
 
-litros_necesarios = km_recorrer * precio_gasolina
+litros_necesarios = km_recorrer * consumo_auto
 costo = precio_gasolina * litros_necesarios
 demora_viaje = km_recorrer / 90
 
