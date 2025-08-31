@@ -135,4 +135,4 @@ if hemisferio_usuario == "N":
 elif hemisferio_usuario == "S":
     print("El hemisferio en el que te encuentras es:", estacion_sur)
 else:
-    print("Hemisferio invalido.")
+    print("Hemisferio invalido. ")
