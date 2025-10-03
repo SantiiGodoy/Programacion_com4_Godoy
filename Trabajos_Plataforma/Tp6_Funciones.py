@@ -4,27 +4,29 @@ print("==Ejercicio 1==")
 print("")
 
 def imprimir_hola_mundo():
-    print("Hola mundo!")
+    saludo = print("Hola mundo!")
+    return saludo
 
-imprimir_hola_mundo()
+saludo = imprimir_hola_mundo()
 
 #Ejercicio 2
 print("==Ejercicio 2==")
 print("")
 
 def saludar_usuario(nombre):
-    print(f"Hola {nombre}!")
+    return f"Hola {nombre}!"
 
 #Codigo principal:
 nombre = input("Ingrese su nombre:").capitalize()
-saludar_usuario(nombre)
+saludo = saludar_usuario(nombre)
+print(saludo)
 
 #Ejercicio 3
 print("==Ejercicio 3==")
 print("")
 
 def informacion_personal(nombre, apellido, edad, residencia):
-    print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}")
+    return f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}"
 
 #Codigo principal:
 nombre = input("Ingrese su nombre:").capitalize()
@@ -32,7 +34,8 @@ apellido = input("Ingrese su apellido:").capitalize()
 edad = int(input("Ingrese su edad:"))
 residencia = input("Ingrese dónde vive:").capitalize()
 
-informacion_personal(nombre, apellido, edad, residencia)
+info = informacion_personal(nombre, apellido, edad, residencia)
+print(info)
 
 #Ejercicio 4
 print("==Ejercicio 4==")
